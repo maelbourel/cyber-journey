@@ -17,7 +17,7 @@ Plages privées (RFC 1918) :
 - 10.0.0.0/8
 - 172.16.0.0/12
 - 192.168.0.0/16
-
+ 
 👉 Le NAT permet à ces machines d’accéder à Internet via **une ou plusieurs adresses IP publiques**.
 
 ## 🔹 Fonctionnement

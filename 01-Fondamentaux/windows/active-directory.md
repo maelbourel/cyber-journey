@@ -33,3 +33,4 @@ AD gère les identités via :
 - compromission AD = compromission totale
 - centralisation des comptes
 - cible majeure des attaquants
+ 

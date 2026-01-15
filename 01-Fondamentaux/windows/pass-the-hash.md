@@ -26,3 +26,4 @@ Attaque permettant d’utiliser un hash de mot de passe sans connaître le mot d
 - credential guard
 - segmentation réseau
 - surveillance des logs
+ 

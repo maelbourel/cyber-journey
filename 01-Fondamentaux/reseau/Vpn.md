@@ -100,4 +100,4 @@ Basé sur TLS/HTTPS.
 - VPN mal configuré = point d’entrée critique
 - appliquer le principe du moindre privilège
 - surveiller les accès distants
-- désactiver les tunnels inutilisés
+- désactiver les tunnels inutilisés 

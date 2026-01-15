@@ -42,3 +42,4 @@ Permet à un utilisateur d’exécuter des commandes avec des privilèges élev�
 - audit des comptes
 - comptes inutiles = risque
 - éviter connexions directes root
+ 

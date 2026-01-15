@@ -1,4 +1,4 @@
-# __DNS / DHCP__
+# 🌐 __DNS / DHCP__
 
 ## __DNS (Domain Name System)__
 

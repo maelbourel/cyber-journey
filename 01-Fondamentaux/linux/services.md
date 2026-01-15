@@ -30,3 +30,4 @@ disable = ne démarre pas
 - vérifier services actifs
 - durcir configuration
 
+ 

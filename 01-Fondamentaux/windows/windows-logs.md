@@ -45,3 +45,4 @@ Outil central de visualisation des événements.
 - SIEM recommandé
 - corrélation d’événements
 - alertes automatiques
+ 

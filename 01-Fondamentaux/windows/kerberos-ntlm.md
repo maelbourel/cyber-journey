@@ -34,3 +34,4 @@ Inconvénients :
 
 - NTLM doit être désactivé progressivement
 - Kerberos ciblé par attaques avancées
+

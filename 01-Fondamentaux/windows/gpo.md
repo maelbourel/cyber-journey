@@ -22,3 +22,4 @@ Une GPO permet d’appliquer des règles de sécurité et de configuration à de
 - durcissement centralisé
 - mauvaise GPO = risque global
 
+ 

@@ -96,4 +96,4 @@ Pour communiquer entre VLAN :
 - VLAN ≠ sécurité absolue
 - attaques possibles : VLAN hopping
 - toujours combiner VLAN + firewall
-- surveiller les trunks et ports d’accès
+- surveiller les trunks et ports d’accès 
