@@ -1,4 +1,7 @@
 # PATH PRE-SECURITY
+Sommaire  
+[Introduction to cyber security](#introduction-to-cyber-security)  
+[Network Fundamentals](#network-fundamentals)
 
 ## Introduction to Cyber Security
 
@@ -31,10 +34,50 @@ dirb http://example.com
 >Un SIEM (Security Information and Event Management) est une solution de cybersécurité qui permet de collecter, centraliser, analyser et corréler les événements de sécurité provenant de différents systèmes informatiques afin de détecter les menaces et incidents de sécurité.  
 ---
 
-### Careers in Cyber 
+## Network Fundamentals
+
+### What is Networking ?
 
 
+📚 Notion : 
+- Addresse IP
+- Adresse MAC
+- ICMP ( Internet Control Message Protocol ) ping
+
+  ping `addresseip`  
 
 
+[📹 Video](https://youtu.be/42u_2e6eNF4)
 
+---
 
+### Intro to LAN 
+
+📚 Notion : 
+- Star topology
+- bus topology
+- Ring topology
+- Switch 
+- Routeur
+- Sous réseau
+- ARP 
+- DHCP
+  
+[📹 Video](https://youtu.be/csYtPidvvFQ)
+
+---
+
+### OSI Model 
+
+📚 Notion : 
+
+- TCP
+- UDP
+
+### Packet & Frames
+
+📚 Notion : 
+
+- TCP/IP
+
+[📹 Video](https://youtu.be/vzcLrE0SfiQ)
