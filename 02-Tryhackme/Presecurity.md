@@ -1,7 +1,11 @@
 # PATH PRE-SECURITY
 Sommaire  
 [Introduction to cyber security](#introduction-to-cyber-security)  
-[Network Fundamentals](#network-fundamentals)
+[Network Fundamentals](#network-fundamentals)  
+[How The Web Works](#how-the-web-works)  
+[Linux Fundamentals](#linux-fondamental)  
+
+
 
 ## Introduction to Cyber Security
 
@@ -71,13 +75,103 @@ dirb http://example.com
 
 📚 Notion : 
 
+- OSI
 - TCP
 - UDP
+
+---
 
 ### Packet & Frames
 
 📚 Notion : 
 
 - TCP/IP
+- Port
+
+[Liste de Ports](https://www.vmaxx.net/techinfo/ports.htm)
 
 [📹 Video](https://youtu.be/vzcLrE0SfiQ)
+
+---
+
+### Extending Tour Network
+
+📚 Notion : 
+  
+  - Redirection de Port
+  - Firewalls
+  - VPN
+  - VLAN
+
+---
+
+## How The Web Works
+
+### DNS in Detail
+
+📚 Notion : 
+
+- DNS
+- Domain Hierarchy
+- 
+
+[📹 Video](https://youtu.be/jpTY1S5vs9k)
+
+---
+
+### HTTP in Detail
+
+📚 Notion : 
+
+- HTTP
+- HTTPS
+- HTTP methods
+- HTTP Status 😼 [Status avec des chat](https://http.cat/)
+- Cookie
+
+
+[📹 Video](https://youtu.be/XZyapIKV3Rw)  
+
+---
+
+### How Websites Work
+
+📚 Notion :
+
+- HTML Injection
+
+[📹 Video](https://youtu.be/iWoiwFRLV4I) 
+
+---
+
+### Putting it all together
+
+📚 Notion :
+
+- Web server
+
+[📹 Video](https://youtu.be/Aa_FAA3v22g) 
+
+---
+
+## Linux Fondamental
+
+### Linus Fondamental Part 1
+
+📚 Notion :
+
+| Command | Description |
+---|---
+echo |	Output any text that we provide
+whoami |	Find out what user we're currently logged in as!
+ls |	listing
+cd |	change directory
+cat |	concatenate
+pwd |	print working directory 
+
+
+- Commande Find
+- Commande Grep
+
+
+[📹 Video](https://youtu.be/kPylihJRG70) 
