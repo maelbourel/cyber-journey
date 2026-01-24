@@ -4,7 +4,7 @@ Sommaire
 [Network Fundamentals](#network-fundamentals)  
 [How The Web Works](#how-the-web-works)  
 [Linux Fundamentals](#linux-fondamental)  
-
+[Windows Fundamentals](#windows-fundamentals)  
 
 
 ## Introduction to Cyber Security
@@ -191,5 +191,53 @@ Symbol / Operator |	Description
 
 📚 Notion :
 
+- SSH
+  
 
-[📹 Video](https://youtu.be/7Zt2Mp2IeBI) 
+  Command | Full Name |	Purpose 
+  ---|---|---
+touch |	touch |	Create file  
+mkdir |	make directory |	Create a folder  
+cp |	copy |	Copy a file or folder  
+mv |	move |	Move a file or folder  
+rm |	remove |	Remove a file or folder  
+file |	file |	Determine the type of a file    
+
+- permision
+- User & Groups
+  
+[📹 Video](https://youtu.be/7Zt2Mp2IeBI)
+
+---
+
+### Linux Fondamental Part 3
+
+
+📚 Notion :
+
+- Nano / Vim
+- wget
+- SCP ( secure copy )
+- python3 -m http.server
+- ps aux
+- top / htop
+- PID
+- kill
+- systemctl
+- cron / crontabs
+- community repositories
+
+
+[📹 Video](https://youtu.be/bwgaZCb2ft8)
+
+---
+
+## Windows Fundamentals 
+
+### Windows Fundamentals 1
+
+📚 Notion :
+
+
+
+
