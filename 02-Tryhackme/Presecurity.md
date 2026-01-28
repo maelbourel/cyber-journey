@@ -238,6 +238,28 @@ file |	file |	Determine the type of a file
 
 📚 Notion :
 
+- NTFS
+- Privilege / user et groupe
+  
+---
 
+### Windows Fundamentals 2
 
+📚 Notion :
 
+- msconfig
+- UAC ( User Account Control Setting )
+- Event viewer
+- compmgmt
+- resmon
+- registry ( regedit )
+
+---
+
+### Windows Fundamentals 3 
+
+📚 Notion :
+
+- windows security
+- firewall
+- bitlocker
