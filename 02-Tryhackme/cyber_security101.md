@@ -25,3 +25,9 @@ sommaire
 
 ### Active Directory basics
 
+📚 Notion : 
+
+- windows domain
+- Domain Controller
+- OU / users
+- 
