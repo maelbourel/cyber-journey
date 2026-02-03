@@ -125,3 +125,34 @@ sommaire
 
 📚 Notion :
 
+- TLS ( certificate )
+- HTTPS
+
+The insecure versions use the default TCP port numbers shown in the table below:
+
+| **Protocol** | **Default Port Number** |
+| --- | --- |
+| HTTP | 80 |
+| SMTP | 25 |
+| POP3 | 110 |
+| IMAP | 143 |
+
+The secure versions, i.e., over TLS, use the following TCP port numbers by default:
+
+| **Protocol** | **Default Port Number** |
+| --- | --- |
+| HTTPS | 443 |
+| SMTPS | 465 and 587 |
+| POP3S | 995 |
+| IMAPS | 993 |
+
+-SSH  `ssh username@hostname`
+-SFTP and FTPS
+-VPN
+
+---
+
+### Wireshark the Basic 
+
+📚 Notion :
+
