@@ -244,5 +244,46 @@ T4 (aggressive)	| 0.13 seconds
 
 📚 Notion :
 
+- plaintext ( texte en clair ) 
+- Ciphertext texte encrypter
+- Cipher l’agorithme de cryptage
+- Key la clé
+- Encryption / Decryption Encrypter Decrypter
 
+[site_pour_dechrifrer_caesarcode](https://cryptii.com/pipes/caesar-cipher)
 
+- Symmetric encryption ( same key for encrypt and decrypt )
+- asymmetric encryption
+
+---
+
+### Public Key Cryptography Basics
+
+📚 Notion :
+
+- Authentification
+- authenticity
+- integrity
+- confidentiality
+- RSA 
+- Diffie-Hellman key exchange
+- SSH
+- -Digital signature
+- Certificates  
+- [Pour avoir son propre certificat grratuit](https://letsencrypt.org/) 
+
+- PGP Pretty Good Privacy
+- GPG
+
+---
+
+### Hashing Basics
+
+📚 Notion :
+
+- Hash value
+- Hash Function
+- awk
+- [site pour dehasher](https://hashes.com/en/decrypt/hash)
+- outil hashcat
+- 
