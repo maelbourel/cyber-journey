@@ -286,4 +286,39 @@ T4 (aggressive)	| 0.13 seconds
 - awk
 - [site pour dehasher](https://hashes.com/en/decrypt/hash)
 - outil hashcat
+
+---
+
+### John the Ripper : basics
+
+📚 Notion :
+
+john [options] [file path]
+
+john: Invokes the John the Ripper program  
+[options]: Specifies the options you want to use  
+[file path]: The file containing the hash you’re trying to crack; if it’s in the same directory, you won’t need to name a path, just the file.  
+
+
+john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt  
+  
+[Aide John the Ripper format](https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)
+
+- NTHash / NTLM ( hash authentification windows )
+  
+- /etc/shadowns pour linux
+- neccisite un fichier grace a unshadow local_passwd local_shadow > unshadowed.txt
+- fichier zip zip2john [options] [zip file] > [output file]
+- fichier rar rar2john [rar file] > [output file]
+- fichier ssh ssh2john [id_rsa private key file] > [output file]
+
+---
+
+##  Exploitation Basics
+
+### Moniker Link ( CVE-2024-21413 )
+
+📚 Notion :
+
 - 
+ 
