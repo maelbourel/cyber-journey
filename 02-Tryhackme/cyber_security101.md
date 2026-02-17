@@ -318,7 +318,83 @@ john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.
 
 ### Moniker Link ( CVE-2024-21413 )
 
+### Metasploit : Introduction
+
+📚 Notion : 
+
+- Metasploit
+-  msfconsole
+
+---
+
+### Blue
+
+  [📹 Video](https://assets.tryhackme.com/rooms/blue/cebba2457df187729076e80e79ef1217.mp4)
+ 
+nmap -sV -vv --script vuln IP  
+
+Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)  
+|     State: VULNERABLE  
+|     IDs:  CVE:CVE-2017-0143  
+|     Risk factor: HIGH  
+|       A critical remote code execution vulnerability exists in Microsoft SMBv1  
+|        servers (ms17-010).  
+
+---
+
+## WEB HACKING
+
+### Web Application Basic
+
+📚 Notion : 
+
+- Front end ( HTML , CSS , Javascript )
+- Back end ( Database , WAF ect ...)
+- WAF = Web Application Firewall
+- URL
+- HTTP request
+- HTTP response  
+
+
+Request Header	| Example	| Description
+---|---|---
+Host | Host: tryhackme.com | Specifies the name of the web server the request is for.
+User-Agent | User-Agent: Mozilla/5.0 | Shares information about the web browser the request is coming from.
+Referer	| Referer: https://www.google.com/ | Indicates the URL from which the request came from.
+Cookie	| Cookie: user_type=student; room=introtowebapplication; room_status=in_progress | Information the web server previously asked the web browser to store is held in cookies.
+Content-Type | Content-Type: application/json | Describes what type or format of data is in the request.  
+
+--- 
+
+### JavaScript Essentials
+
+📚 Notion : 
+
+---
+
+### SQL Fundamentals 
+
+📚 Notion : 
+
+- Relational Database
+- Non relational Database
+- CRYD ( Create , Read , Update , Delete )
+
+---
+
+### Burp Suite
+
+📚 Notion : 
+
+-
+
+---
+
+## Offensive Security Tooling
+
+### Hydra 
+
 📚 Notion :
 
-- 
- 
+
+  [📹 Video](https://assets.tryhackme.com/rooms/blue/cebba2457df187729076e80e79ef1217.mp4)
