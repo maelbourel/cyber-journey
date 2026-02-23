@@ -397,4 +397,63 @@ Content-Type | Content-Type: application/json | Describes what type or format of
 📚 Notion :
 
 
-  [📹 Video](https://assets.tryhackme.com/rooms/blue/cebba2457df187729076e80e79ef1217.mp4)
+  [📹 Video](https://youtu.be/8fs_7bm88GY)
+
+---
+
+### Gobuster : The Basics
+
+📚 Notion :
+
+- A rebosser
+
+---
+
+### Shell Overview
+
+📚 Notion :
+
+- Reverse Shell
+
+---
+
+### SQLMap The Basics
+
+📚 Notion :
+
+- A rebosser 
+
+---
+
+## Defensive Security 
+
+### SOC Fundamentals 
+
+📚 Notion :
+
+- SOC (Security Operations Center)
+- Detection
+- Response
+- People, Process, and Technology 
+- SIEM   
+
+5 Ws	| Answers
+---|---
+What?	| A malicious file was detected on one of the hosts inside the organization’s network.
+When?	| The file was detected at 13:20 on June 5, 2024.
+Where?	| The file was detected in the directory of the host: "GEORGE PC".
+Who?	| The file was detected for the user George.
+Why?	| After the investigation, it was found that the file was downloaded from a pirated software-selling website. The investigation with the user revealed that they downloaded the file as they wanted to use a software for free.  
+
+---
+
+### Digital Forensic Fundamentals
+
+📚 Notion :
+
+- Collection
+- Examination
+- Analysis
+- Reporting
+- Chain of Custody 
+- write blockers
