@@ -1,3 +1,34 @@
+# Nmap – Network Mapper
+
+## 🎯 Objectif
+Scanner un réseau pour découvrir :
+- Machines actives
+- Ports ouverts
+- Services
+- Versions
+- OS
+
+## 🔧 Commandes de base
+nmap 192.168.1.10
+nmap -sS 192.168.1.10              # SYN scan
+nmap -sV 192.168.1.10              # Détection versions
+nmap -O 192.168.1.10               # Détection OS
+nmap -A 192.168.1.10               # Scan agressif
+nmap -p- 192.168.1.10              # Tous les ports
+
+## 🧠 Options utiles
+-Pn     # Ignore ping
+-T4     # Scan rapide
+--script vuln   # Scripts vulnérabilités
+
+## 📌 Usage typique
+Reconnaissance initiale d’un réseau.
+
+
+
+---
+
+
 Option	| Explanation
 ---|---
 -sL	| List scan – list targets without scanning
