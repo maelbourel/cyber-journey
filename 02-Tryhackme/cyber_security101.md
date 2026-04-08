@@ -457,3 +457,98 @@ Why?	| After the investigation, it was found that the file was downloaded from a
 - Reporting
 - Chain of Custody 
 - write blockers
+
+---
+
+### Incident Response Fundamentals
+
+📚 Notion :
+
+- Malware Infections
+- Security Breache
+- Data Leaks
+- Insider Attacks
+- Denial Of Service Attacks
+- Preparation / Identification / Containment / Eradication / Recovery / Lessons Learned
+- SIEM 
+- Antivirus ( AV )
+- EDR ( Endpoint Detection and Response)
+
+---
+
+### Logs Fundamentals 
+
+📚 Notion :
+
+- Event viewer
+
+---
+
+## Security Solution 
+
+### Introduction to SIEM 
+
+📚 Notion :
+
+- Centralized Log Collection
+- Normalization of Logs
+- Correlation of Logs
+- Real-time Alerting
+- Dashboards and Reporting
+  
+---
+
+### Firewal Fundamentals 
+
+
+📚 Notion :
+
+Firewalls	| Characteristics
+---|---
+Stateless firewalls	| - Basic filtering
+- No track of previous connections
+- Efficient for high-speed networks
+Stateful firewalls	| - Recognize traffic by patterns
+- Complex rules can be applicable
+- Monitor the network connections
+Proxy firewalls	| - Inspect the data inside the packets as well
+- Provides content filtering options
+- Provides application control
+- Decrypts and inspects SSL/TLS data packets
+Next-generation firewalls	| - Provides advanced threat protection
+- Comes with an intrusion prevention system
+- Identify anomalies based on heuristic analysis
+- Decrypts and inspects SSL/TLS data packets   
+
+
+---
+
+### IDS Fundamentals
+
+
+📚 Notion :
+
+- IDS ( Intusion Detection System )
+
+---
+
+### Vulnerability Scanner Overview
+
+
+📚 Notion :
+
+- Scan
+- Outil OpenVAS
+
+---
+
+## Defensive Security Tooling
+
+### Cyberchef : the Basics
+
+
+📚 Notion :
+
+[Cyber-Chef](https://gchq.github.io/CyberChef/) 
+
+- 
