@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e3902afc1839bf8e",
+        "id": "a6f3208a2b025d36",
         "type": "tabs",
         "children": [
           {
-            "id": "52d023f2761df94f",
+            "id": "d44359638e127d84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "#Challenge.md",
+                "file": "06-projet/SSO/Procédure de jointure SAMBA avec Authentik.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": false
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "#Challenge"
+              "title": "Procédure de jointure SAMBA avec Authentik"
             }
           }
         ]
@@ -95,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
-                "collapseAll": false,
+                "file": "06-projet/SSO/Procédure de jointure SAMBA avec Authentik.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour README"
+              "title": "Rétrolien pour Procédure de jointure SAMBA avec Authentik"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "06-projet/SSO/Procédure de jointure SAMBA avec Authentik.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de README"
+              "title": "Liens sortants de Procédure de jointure SAMBA avec Authentik"
             }
           },
           {
@@ -166,30 +165,40 @@
               "title": "Plan de README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 223.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Créer une nouvelle base": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Create new base": false
+      "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "52d023f2761df94f",
+  "active": "7ce0ced2de2ea302",
   "lastOpenFiles": [
-    "README.md",
-    "#Challenge.md",
     "02-Tryhackme/Presecurity.md",
     "02-Tryhackme/cyber_security101.md",
+    "04-tools/Netcat.md",
+    "04-tools/Metasploit.md",
+    "04-tools/hydra.md",
+    "04-tools/Burp Suite.md",
+    "04-tools/Dirb.md",
+    "06-projet/LDAP/Gestion de l'AD.md",
+    "README.md",
+    "06-projet/SSO/Procédure Lier Bookstack a Authentik.md",
+    "06-projet/SSO/Procédure Installation Authentik.md",
+    "06-projet/Reverse Proxy/Procédure ajouter Authentik dans Nginx Proxy Manager.md",
+    "06-projet/LDAP/SAMBA.md",
+    "#Challenge.md",
     "02-Tryhackme/Images/THM-LMDOVQLIII.pdf",
     "01-Fondamentaux/reseau/HTTP⁄HTTPS.md",
     "01-Fondamentaux/reseau/ARP.md",
