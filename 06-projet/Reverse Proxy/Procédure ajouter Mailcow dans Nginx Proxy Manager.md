@@ -20,4 +20,6 @@ Dans l'onglet **SSL** :
 
 Valider et vérifier que le proxy host passe en statut **En ligne**.
 
-**Test** : accéder à `https://mail.delphin-lab.fr` depuis un navigateur et vérifier que l'interface Mailcow s'affiche sans erreur de certificat.
+**Test** : accéder à `https://mail.delphin-lab.fr` depuis un navigateur et vérifier que l'interface Mailcow s'affiche sans erreur de certificat.  
+
+> ⚠️ Attention : si vous êtes sur le réseau interne, afin d'éviter des problèmes de DNS, configurez dans pfSense le DNS Resolver en ajoutant le sous-domaine `mail.delphin-lab.fr` dans les Host Overrides.
