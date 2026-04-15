@@ -54,7 +54,7 @@ Endpoint Token: | https://auth.delphin-lab.fr/application/o/token/
 Endpoint User info: | https://auth.delphin-lab.fr/application/o/userinfo/
 ID Client: | ID Client fournit sur Authentik
 Secret Client: | Secret Client fournit sur Authentik
-Url de redirection: | https://mail.delphin-lab.fr 
+Url de redirection: | https://mail.delphin-lab.fr
 Scopes Client: | openid profile email  
 
 - Cocher Ignorer les erreur SSL   
