@@ -165,8 +165,7 @@
               "title": "Plan de README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,7 +182,7 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "7ce0ced2de2ea302",
+  "active": "bd7397adde118db7",
   "lastOpenFiles": [
     "02-Tryhackme/Presecurity.md",
     "02-Tryhackme/cyber_security101.md",
