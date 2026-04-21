@@ -108,7 +108,7 @@ Champ	| Valeur
 Identifier |	authentik
 Client ID |	Client ID copié depuis Authentik
 Client secret |	Client Secret copié depuis Authentik
-Discovery endpoint |	https://authentik.delphin-lab.fr/application/o/nextcloud/.well-known/openid-configuration
+Discovery endpoint |	https://auth.delphin-lab.fr/application/o/nextcloud/.well-known/openid-configuration
 Scope |	email profile nextcloud openid  
 
 > ⚠️ Si le property mapping Nextcloud Profile n'a pas été créé, mettre uniquement email profile openid dans le champ Scope (sans nextcloud).
@@ -137,7 +137,7 @@ services:
     dns:
       - 10.42.2.10    # Samba AD DC (DNS interne du domaine)
     extra_hosts:
-      - "authentik.delphin-lab.fr:10.42.0.5"   # Pointe vers NPM (DMZ)
+      - "auth.delphin-lab.fr:10.42.0.5"   # Pointe vers NPM (DMZ)
 ```
 
 Puis stopper et relancer le service 

@@ -33,7 +33,16 @@ services:
       - 10.42.2.10          # Samba AD DC (DNS interne du domaine)
     extra_hosts:
       - "cloud.delphin-lab.fr:10.42.0.5"   # Pointe vers NPM (DMZ)
+    
 ```
+Si il y a un reverse proxy il faut aussi décommenter 
+
+```bash
+environment: 
+      APACHE_PORT: 11000 
+      APACHE_IP_BINDING: 0.0.0.0
+```
+
 
 > ⚠️ Si vous voulez rentrer votre propre sous domaine bien penser au régle de pare-feu Autoriser le port 11000 de la DMZ vers le LAN SERVEUR et du LAN SERVEUR autoriser les port 8080 , 8443 , 11000
 
