@@ -7,7 +7,9 @@
 
 ## Pré Requis 
 
-Avoir un adresse IP fixe
+Avoir un adresse IP fixe  
+
+[Procédure sur Débian](/06-projet/Procédure%20Utile/Procédure%20config%20réseau%20Débian.md)
 
 
 ## Installation  

@@ -6,13 +6,15 @@
 
 ## Pré Requis 
 
-Avoir un adresse IP fixe
+Avoir un adresse IP fixe  
+
+[Procédure sur Débian](/06-projet/Procédure%20Utile/Procédure%20config%20réseau%20Débian.md)
 
 Avoir Docker Compose d'installer 
 
-[Procédure d'installation de Docker]()
+[Procédure d'installation de Docker](/06-projet/Procédure%20Utile/Procédure%20Installation%20Docker.md) 
 
-Nginx Proxy Manager (NPM) configuré ( voir [Procédure ajouter NextCloud dans Nginx Proxy Manager]())
+Nginx Proxy Manager (NPM) configuré ( voir [Procédure ajouter NextCloud dans Nginx Proxy Manager](/06-projet/Reverse%20Proxy/Procédure%20ajouter%20Nextcloud%20dans%20Nginx%20Proxy%20Manager.md) )
 
 ## Installation  
 

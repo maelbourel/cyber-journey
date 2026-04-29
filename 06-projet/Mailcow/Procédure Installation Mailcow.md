@@ -6,13 +6,15 @@
 
 ## Pré Requis 
 
-Avoir un adresse IP fixe
+Avoir un adresse IP fixe  
+
+[Procédure sur Débian](/06-projet/Procédure%20Utile/Procédure%20config%20réseau%20Débian.md)
 
 Avoir Docker Compose d'installer 
 
-[Procédure d'installation de Docker]()
+[Procédure d'installation de Docker](/06-projet/Procédure%20Utile/Procédure%20Installation%20Docker.md)
 
-Nginx Proxy Manager (NPM) configuré ( voir [Procédure ajouter Mailcow dans Nginx Proxy Manager](https://bookstack.delphin-lab.fr/books/documentation-reverse-proxy/page/procedure-ajouter-mailcow-dans-nginx-proxy-manager))
+Nginx Proxy Manager (NPM) configuré ( voir [Procédure ajouter Mailcow dans Nginx Proxy Manager](/06-projet/Reverse%20Proxy/Procédure%20ajouter%20Mailcow%20dans%20Nginx%20Proxy%20Manager.md) )
 
 Ouvrir les port suivant :  
 
