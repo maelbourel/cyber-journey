@@ -2,6 +2,9 @@
 
 ## Procédure Utile  
 
+[Procédure Durcissement SSH](/06-projet/Procédure%20Utile/Procédure%20Durcissement%20SSH.md)  
+[Procédure config réseau Débian](/06-projet/Procédure%20Utile/Procédure%20config%20réseau%20Débian.md)  
+[Procédure Installation Docker](/06-projet/Procédure%20Utile/Procédure%20Installation%20Docker.md)  
 
 
 ## Grafana
@@ -46,7 +49,7 @@
 
 ## Suricata
 
-[Procédure a faire installation de Suricata](/06-projet/Suricata%20/Procédure%20a%20faire%20installation%20de%20Suricata.md)  
+[Procédure installation de Suricata](/06-projet/Suricata%20/Procédure%20installation%20de%20Suricata.md)  
 
 ## TrueNas
 
@@ -56,8 +59,8 @@
 
 [Procédure a faire installation d'agent Wazuh sur Linux](/06-projet/Wazuh/Procédure%20a%20faire%20installation%20d'agent%20Wazuh%20sur%20Linux.md)  
 [Procédure a faire installation d'agent Wazuh sur Windows](/06-projet/Wazuh/Procédure%20a%20faire%20installation%20d'agent%20Wazuh%20sur%20Windows.md)  
-[Procédure a faire installation de Wazuh](/06-projet/Wazuh/Procédure%20a%20faire%20installation%20de%20Wazuh.md)  
-[Procédure a faire lier un agent Wazuh pour Surricata](/06-projet/Wazuh/Procédure%20a%20faire%20lier%20un%20agent%20Wazuh%20pour%20Surricata.md)
+[Procédure installation de Wazuh](/06-projet/Wazuh/Procédure%20installation%20de%20Wazuh.md)  
+[Procédure lier un agent Wazuh pour Surricata](/06-projet/Wazuh/Procédure%20lier%20un%20agent%20Wazuh%20pour%20Suricata.md)
 
 
 ## Zabbix
