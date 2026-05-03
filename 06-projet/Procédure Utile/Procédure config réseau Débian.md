@@ -4,8 +4,8 @@ Tout se passe dans le fichier `/etc/network/interfaces`
 
 IP statique  
 ```bash
-allow-hotplug eth0
-iface eth0 inet static
+allow-hotplug ens18
+iface ens18 inet static
     address X.X.X.X/Y
     gateway X.X.X.X
     dns-nameservers X.X.X.X
@@ -15,5 +15,5 @@ iface eth0 inet static
 DHCP  
 ```bash
 allow-hotplug eth0
-iface eth0 inet dhcp
+iface ens18 inet dhcp
 ```

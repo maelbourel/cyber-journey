@@ -41,7 +41,7 @@
 **Étape 4 — Soumettre**
 
 
-## 3. Configurer Mailcow
+## 2 Configurer Mailcow
 
 - Se connecter en tant que admin 
 - Naviger vers `Systeme > Configuration > Accès > Identity Provider`
@@ -65,7 +65,7 @@ Scopes Client: | openid profile email
 
 > ⚠️ si soucis de connexion échoué a cause de problèmes de certificat modifier le `docker-compose.override.yml`
 
-## 4. Modifier le fichier `docker-compose.override.yml`
+## 3 Modifier le fichier `docker-compose.override.yml`
 
 Depuis la VM mailcow
 
@@ -103,7 +103,7 @@ Une fois le service relancer exécuter :
 sudo docker compose exec sogo-mailcow update-ca-certificates
 ```
 
-## 5. Test et validation
+## 4 Test et validation
 
 1. Accéder à `https://mail.delphin-lab.fr/`
 2. Un bouton **Single Signe-On** doit apparaître sous le formulaire classique

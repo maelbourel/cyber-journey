@@ -10,7 +10,7 @@
 apt install -y sudo
 
 # Crée l'utilisateur d'administration dédié 
-useradd -m -s /bin/bash -G adminlab
+useradd -m -s /bin/bash adminlab
 passwd adminlab
 
 # Vérifier les droits sudo 

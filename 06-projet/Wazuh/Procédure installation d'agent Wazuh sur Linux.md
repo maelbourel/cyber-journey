@@ -1,4 +1,4 @@
-# Procédure d'installation d'age,t Wazuh sur Linux
+# Procédure d'installation d'agent Wazuh sur Linux
 
 
 ## Pré Requis 

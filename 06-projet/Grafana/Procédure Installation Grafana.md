@@ -48,4 +48,4 @@ docker compose up -d
 
 Fin de l'installation sur l'interface Web
 
-`http://Ipmachine:3000`
+`http://<IP_SERVEUR>:3000`

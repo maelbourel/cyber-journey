@@ -54,4 +54,4 @@ Une fois tout les réglages bien mis en place on lance le conteneur
 docker compose up -d
 ```  
 
-Apres suivre l'installation a partir de l'interface web depuis `https:\\Ipnextcloud:8080`
+Apres suivre l'installation a partir de l'interface web depuis `https:\\<IP_SERVEUR>:8080`

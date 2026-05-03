@@ -94,7 +94,7 @@ systemctl enable zabbix-server zabbix-agent nginx php8.4-fpm
 
 On finit l'install sur l'interface Web 
 
-`http://Ipdelamachine:8080`  
+`http://<IP_SERVEUR>:8080`  
 
 
 > Il se peut qu'il y ai un soucis avec les packs de langues dans ce cas il faut :  

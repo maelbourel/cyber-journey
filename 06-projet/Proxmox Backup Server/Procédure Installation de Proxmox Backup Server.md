@@ -18,7 +18,7 @@ Passer l'addresse mail de `invalide` a `valid`
 
 ## Création d'un datastore sur PBS 
 
-On accède a l'interface web de PBS `https://IPPBS:8007`  
+On accède a l'interface web de PBS `https://<IP_PBS>:8007`  
 
 Connexion `root` avec mot de passe définie lors de l'installation   
 
@@ -38,7 +38,7 @@ Datacenter > Storage > Add > Proxmox Backup Server
 Champ | Valeur  
 ---|---
 ID | `pbs`
-Server | `AdresseIPdePBS`  
+Server | `<IP_PBS>`  
 Username | `root@pam (ou user dédié)` 
 Password | `mdp PBS` 
 Datastore | `nom du datastore créé`

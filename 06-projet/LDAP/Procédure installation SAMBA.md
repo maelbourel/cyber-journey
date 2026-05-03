@@ -5,7 +5,7 @@
 
 ### Avoir une adresse IP fixe
 
-modifier le fichier ```/ect/network/interfaces```
+modifier le fichier ```/etc/network/interfaces```
 
 ```bash
 allow-hotplug ens18

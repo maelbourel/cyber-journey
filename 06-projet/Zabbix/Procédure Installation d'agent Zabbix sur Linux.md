@@ -49,8 +49,8 @@ sudo nano /etc/zabbix/zabbix_agent2.conf
 Avec les paramètres suivant 
 
 ```bash
-Server=adresse_ip_serveur_zabbix
-ServerActive=adresse_ip_serveur_zabbix
+Server=<IP_SERVEUR_ZABBIX>
+ServerActive=<IP_SERVEUR_ZABBIX>
 Hostname=nom_hote
 ```
 
@@ -80,7 +80,7 @@ Groupes d'hôtes choisir la categories ici `Linux servers`
 Interfaces > Ajouter : 
 
 - Agent 
-- Ip = Ip_de_hôte
+- IP = IP_de_hôte
 - Port = 10050
 
 Ajouter  

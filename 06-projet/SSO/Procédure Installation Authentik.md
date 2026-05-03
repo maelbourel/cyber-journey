@@ -24,7 +24,7 @@ cd Authentik
 wget https://docs.goauthentik.io/compose.yml
 ```
 
-Pour la base de donnée PostgreSGL il faut rajouter des variables cachées pour les mots de passe dans le fichier .env  
+Pour la base de donnée PostgreSQL il faut rajouter des variables cachées pour les mots de passe dans le fichier .env  
 
 ```bash
 echo "PG_PASS=$(openssl rand -base64 36 | tr -d '\n')" >> .env
@@ -53,7 +53,7 @@ Le fichier compose.yml et le .env sont maintenant configurer on peut deployer le
 docker compose up -d
 ```
 
-Une fois le service lancer pour la premiere installation il faut allez sur le site ```http://IPaddress:9000/if/flow/initial-setup/.`  
+Une fois le service lancer pour la première installation il faut allez sur le site ```http://<IP_SERVEUR>:9000/if/flow/initial-setup/.`  
 
 Le compte administrateur de base est ```akadmin```
 
