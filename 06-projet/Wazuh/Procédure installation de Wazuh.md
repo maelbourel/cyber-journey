@@ -1,4 +1,4 @@
-# Procédure d'installation de Suricata
+# Procédure d'installation de Wazuh
 
 ## Configuration Minimal 
 
@@ -75,5 +75,9 @@ https://<IP_SERVEUR>
 ## Installez des agents
 
 [Procédure lier un agent Wazuh pour Suricata](/06-projet/Wazuh/Procédure%20lier%20un%20agent%20Wazuh%20pour%20Suricata.md)  
+[Procédure installation d'agent Wazuh sur Linux](/06-projet/Wazuh/Procédure%20installation%20d'agent%20Wazuh%20sur%20Linux.md)  
+[Procédure installation d'agent Wazuh sur Windows](/06-projet/Wazuh/Procédure%20installation%20d'agent%20Wazuh%20sur%20Windows.md)  
+[Procédure installation d'agent depuis Wazuh Manager](/06-projet/Wazuh/Procédure%20installation%20d'agent%20depuis%20Wazuh%20Manager.md)  
+
 
 

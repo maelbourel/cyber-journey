@@ -82,7 +82,7 @@ Dans la section `<ossec_config>` rajouter le bloc suivant :
 > - L'utilisateur wazuh (ou ossec) doit avoir les droits de lecture sur le fichier : chmod 644 /var/log/suricata/eve.json
 
 
-Ensuite Redémarrez l'agent : 
+Ensuite redémarrez l'agent : 
 
 ```bash
 systemctl restart wazuh-agent
