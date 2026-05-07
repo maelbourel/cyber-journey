@@ -11,9 +11,11 @@ Autoriser le port `TCP 8007` du proxmox host vers PBS
 
 ## Installation  
 
-Suivre l'installation et configurer une adresse IP fixe 
+Suivre l'installation
 
-Passer l'addresse mail de `invalide` a `valid`
+Passer l'addresse mail de `mail@example.invalid` a `mail@example.valid`  
+
+Configurer l'adresse IP fixe 
 
 
 ## Création d'un datastore sur PBS 
