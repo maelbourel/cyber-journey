@@ -72,7 +72,9 @@ Pour répondre au problématique les plus courante cette infrastructure sera com
   
 - d'un serveur mail
 
-- D'un outils de Supervision
+- D'un outils de Supervision 
+
+- D'observer la disponibilité des services
   
 - d'une solution de sauvegarde
   
@@ -91,45 +93,35 @@ Le choix d’une stack exclusivement open source répond à plusieurs enjeux ren
 
 Car cette démarche s’inscrit également dans une logique d’hébergement maîtrisé, soit en infrastructure on-premise, soit sur des serveurs hébergés en France ou en Europe, par exemple chez OVHcloud, afin de garantir une meilleure maîtrise des données, de leur localisation et des services associés.
 
-Au-delà de l’aspect économique, cette approche favorise la souveraineté numérique, une meilleure compatibilité avec les standards ouverts, ainsi que la transparence des solutions utilisées. Enfin, elle contribue à renforcer l’indépendance numérique de l’entreprise, un enjeu devenu important à prendre en compte.
 
-## 2.5 Solution retenues et justification des choix
-
-### Comparaison globale : stack propriétaire vs stack open-source
-
-Pour répondre aux problématiques identifiées, deux approches étaient envisageables :
-une solution propriétaire basée sur les produits Microsoft, ou une stack open-source auto-hébergée. Le tableau ci-dessous compare les deux options pour une structure
-de 10 à 20 utilisateurs :
+Voici un tableau pour montrer économiquement la différence entre une solution propriétaire basée sur les produits Microsoft, ou une stack open-source auto-hébergée.
 
 | Besoin | Solution propriétaire | Coût estimé / an | Solution retenue (open-source) | Coût |
 |---|---|---|---|---|
-| Pare-feu / routeur | Cisco ASA / Fortinet | ~500 – 2 000 € | pfSense | Gratuit |
-| Annuaire / AD | Windows Server + CAL | ~600 – 1 200 € | Samba AD DC | Gratuit |
-| SSO / IAM | Azure AD P1 | ~720 € | Authentik | Gratuit |
-| Reverse proxy | F5 Nginx Plus | ~500 – 1 500 € | Nginx Proxy Manager | Gratuit |
-| Messagerie | Microsoft 365 Business Basic | ~720 – 1 440 € | Mailcow | Gratuit |
-| Partage de fichiers | SharePoint / OneDrive | Inclus M365 | Nextcloud | Gratuit |
-| Supervision | PRTG / Datadog | ~500 – 2 000 € | Zabbix + Grafana | Gratuit |
-| Disponibilité services | Site24x7 / Pingdom | ~200 – 600 € | Uptime Kuma | Gratuit |
-| IDS/IPS | Darktrace / Snort commercial | ~2 000 – 5 000 € | Suricata | Gratuit |
-| SIEM | Microsoft Sentinel / Splunk | ~1 500 – 5 000 € | Wazuh | Gratuit |
-| Sauvegarde | Veeam Backup / Acronis | ~300 – 800 € | Proxmox Backup Server | Gratuit |
-| **Total estimé** | | **~8 000 – 20 000 €/an** | | **~0 €/an** |
+| Pare-feu / routeur | Cisco ASA / Fortinet | 500 – 2 000 € | pfSense | Gratuit |
+| Annuaire / AD | Windows Server + CAL | 600 – 1 200 € | Samba AD DC | Gratuit |
+| SSO / IAM | Azure AD P1 | 720 € | Authentik | Gratuit |
+| Reverse proxy | F5 Nginx Plus | 500 – 1 500 € | Nginx Proxy Manager | Gratuit |
+| Partage de fichiers | SharePoint / OneDrive | Inclus M365 | Nextcloud / TrueNas | Gratuit |
+| Messagerie | Microsoft 365 Business Basic | 720 – 1 440 € | Mailcow | Gratuit |
+| Supervision | PRTG / Datadog | 500 – 2 000 € | Zabbix + Grafana | Gratuit |
+| Disponibilité services | Site24x7 / Pingdom | 200 – 600 € | Uptime Kuma | Gratuit |
+| Sauvegarde | Veeam Backup / Acronis | 300 – 800 € | Proxmox Backup Server | Gratuit |
+| IDS/IPS | Darktrace / Snort commercial | 2 000 – 5 000 € | Suricata | Gratuit |
+| SIEM | Microsoft Sentinel / Splunk | 1 500 – 5 000 € | Wazuh | Gratuit |
+| **Total estimé** | | **8 000 – 20 000 €/an** | | **0 €/an** |
 
 
 > Estimations indicatives pour 10 à 20 utilisateurs, hors coûts d'intégration et de maintenance. Les coûts propriétaires incluent les licences uniquement.
 
-Le choix de la stack open-source permet une économie substantielle sur les licences, tout en offrant des fonctionnalités équivalentes — voire supérieures sur certains aspects tels que la personnalisation, le contrôle des données et la souveraineté numérique.
+Le choix de la stack open-source permet une économie non négligeable pour des TPE/PME sur les licences, tout en offrant des fonctionnalités équivalentes.  
 
----
+Au-delà de l’aspect économique, cette approche favorise la souveraineté numérique, une meilleure compatibilité avec les standards ouverts, ainsi que la transparence des solutions utilisées. Enfin, elle contribue à renforcer l’indépendance numérique de l’entreprise, un enjeu devenu important à prendre en compte.  
 
-### Justification par brique technique
 
-Pour chaque composant, plusieurs alternatives ont été étudiées avant de retenir
-la solution finale. Les critères de sélection retenus sont : la maturité de la
-solution, la taille et l'activité de la communauté, la facilité d'intégration
-avec le reste de la stack, les ressources système requises, et la qualité de
-la documentation disponible.
+## 2.5 Solution retenues et justification des choix
+
+Pour chaque composant, plusieurs alternatives open-source ont été étudiées avant de retenir la solution finale.
 
 | Besoin | Solution retenue | Alternatives étudiées | Raison du choix |
 |---|---|---|---|
@@ -137,13 +129,13 @@ la documentation disponible.
 | Annuaire LDAP / AD | **Samba AD DC** | OpenLDAP, FreeIPA | Seule solution open-source implémentant nativement Active Directory complet (Kerberos, GPO, SYSVOL). Compatible RSAT sans configuration supplémentaire. OpenLDAP est plus léger mais ne gère pas les GPO. |
 | SSO / IdP | **Authentik** | Keycloak, Authelia | Interface moderne et intuitive, synchronisation LDAP native, support OIDC et SAML. Plus léger que Keycloak (qui nécessite une JVM et plus de RAM). Authelia est plus limité en fonctionnalités. |
 | Reverse proxy | **Nginx Proxy Manager** | Traefik, Caddy | Interface graphique simple, gestion automatique des certificats Let's Encrypt intégrée, adapté à une infrastructure sans CI/CD. Traefik est plus adapté aux environnements Docker orchestrés. |
-| Messagerie | **Mailcow** | Mailu, iRedMail | Stack complète clé en main (Postfix, Dovecot, Rspamd, SOGo, antispam). Interface d'administration moderne. Mailu est plus léger mais moins complet. iRedMail est moins maintenu. |
 | Partage de fichiers | **Nextcloud** | Seafile, Pydio Cells | Écosystème applicatif très riche, intégration LDAP/OIDC native, très répandu en entreprise, applications mobiles matures. Seafile est plus performant en transfert pur mais moins intégré. |
+| Messagerie | **Mailcow** | Mailu, iRedMail | Stack complète clé en main (Postfix, Dovecot, Rspamd, SOGo, antispam). Interface d'administration moderne. Mailu est plus léger mais moins complet. iRedMail est moins maintenu. |
 | Supervision métriques | **Zabbix + Grafana** | Nagios, Checkmk, Prometheus seul | Zabbix pour la collecte et les alertes (agents natifs Linux/Windows/SNMP), Grafana pour la visualisation avancée. Combinaison standard en production. Nagios est vieillissant. Checkmk est une bonne alternative mais moins personnalisable. |
 | Disponibilité services | **Uptime Kuma** | Statping, Cachet | Très léger, interface moderne, multiples canaux de notification (email, Telegram, Slack, Discord). Statping est moins activement maintenu. |
+| Sauvegarde | **Proxmox Backup Server** | Bacula, Amanda, Veeam | Intégration native et transparente avec Proxmox VE, déduplication des données, restauration granulaire fichier par fichier, entièrement gratuit. Veeam Community Edition est limité à 10 workloads. |
 | IDS/IPS | **Suricata** | Snort, Zeek | Multithreading natif (plus performant que Snort sur les flux modernes), règles Emerging Threats Open gratuites et régulièrement mises à jour, format de log EVE JSON facilitant l'intégration avec un SIEM. |
 | SIEM | **Wazuh** | Elastic SIEM, OpenSearch Security | Stack tout-en-un intégrée (Manager + Indexer + Dashboard), agents disponibles Linux et Windows, intégration native des logs Suricata, FIM (File Integrity Monitoring) inclus. Elastic SIEM nécessite plus de configuration manuelle. |
-| Sauvegarde | **Proxmox Backup Server** | Bacula, Amanda, Veeam | Intégration native et transparente avec Proxmox VE, déduplication des données, restauration granulaire fichier par fichier, entièrement gratuit. Veeam Community Edition est limité à 10 workloads. |
 
 # 3. Analyse et conception de la solution  
 
