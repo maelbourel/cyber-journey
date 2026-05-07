@@ -1,8 +1,5 @@
 # Intégration de Grafana avec Authentik (SSO via OIDC)
 
-A RELIRE ET A TESTER CETTE DOC
-
-
 ## Prérequis
 
 - Authentik installé et fonctionnel
@@ -33,8 +30,8 @@ A RELIRE ET A TESTER CETTE DOC
 | Champ | Valeur |
 |---|---|
 | **Flux d'autorisation** | `default-provider-authorization-implicit-consent` |
-| **URI/Origines de redirection** | `Strict` — `http://ipgrafana:3000/login/generic_oauth` |
-| **URI de déconnexion** | `https://ipgrafana:3000/logout` |
+| **URI/Origines de redirection** | `Strict` — `http://<IP_GRAFANA>:3000/login/generic_oauth` |
+| **URI de déconnexion** | `https://<IP_GRAFANA>:3000/logout` |
 | **Logout Method** | Cocher `Front-channel`
 | **Clé de signature** | `authentik Self-signed Certificate` |
 
@@ -53,7 +50,7 @@ Dans `Advanced protocol settings` pour les scopes rajouter `authentik default Oa
 ## 2. Configurer Grafana
 
 - Aller dans le dossier docker du Grafana  
-- Dans le fichier `docker-compose.yaml` rajouter les variables dans la section `environment` du service `bookstack` :
+- Dans le fichier `docker-compose.yaml` rajouter les variables dans la section `environment` du service `grafana` :
 
 ```yaml
 environment:
@@ -81,7 +78,7 @@ environment:
 
 ```yaml
 services:
-  bookstack:
+  grafana:
     dns:
       - 10.42.2.10          # Samba AD DC (DNS interne du domaine)
     extra_hosts:
@@ -89,10 +86,10 @@ services:
 ```
 
 - Ensuite on redémarre Grafana 
+  
 ```bash
 docker compose down
 docker compose up -d
 ```
 
-## 3. Test et validation
 
